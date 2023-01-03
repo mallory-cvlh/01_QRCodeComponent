@@ -18,8 +18,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/mallory-cvlh/02_QRCodeComponent)
-- Live Site URL: [Live](https://mallory-cvlh.github.io/02_QRCodeComponent/)
+- Solution URL: [GitHub](https://github.com/mallory-cvlh/01_QRCodeComponent)
+- Live Site URL: [Live](https://mallory-cvlh.github.io/01_QRCodeComponent/)
 
 ## My process
 
