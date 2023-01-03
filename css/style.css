@@ -22,25 +22,28 @@
 }
 
 /* || UTILITY CLASSES */
-.nowrap {
-    white-space: nowrap;
+.sr-only {
+    left: -10000px;
+    position: absolute;
 }
 
 /* || GENERAL STYLES */
 html {
-    background: var(--LIGHT-GRAY);
     font-family: var(--FF);
 }
 
 body {
-    background: var(--WHITE);
-    border-radius: 20px;
-    margin: 15rem auto;
-    max-width: 350px;
+    background: var(--LIGHT-GRAY);
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
     text-align: center;
 }
 
 .container{
+    background: var(--WHITE);
+    border-radius: 20px;
+    max-width: 350px;
     padding: 1em;
 }
 
