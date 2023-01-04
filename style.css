@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* || RESET */
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* || VARIABLES */
+:root {
+    /* FONTS */
+    --FF: 'Outfit', sans-serif;
+    --FW-700: 700;
+    
+    /* COLORS */
+    --DARK-BLUE: hsl(218, 44%, 22%);
+    --GRAYISH-BLUE: hsl(220, 15%, 55%);
+    --LIGHT-GRAY: hsl(212, 45%, 89%);
+    --WHITE: hsl(0, 0%, 100%);
+}
+
+/* || GENERAL STYLES */
+html {
+    background: var(--LIGHT-GRAY);
+    font-family: var(--FF);
+    text-align: center;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.card {
+    background: var(--WHITE);
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 1rem;
+}
+
+/* || QR CODE */
+.card img {
+    border-radius: 10px;
+}
+
+/* || TITLE */
+.card h1 {
+    color: var(--DARK-BLUE);
+    margin: 1rem;
+}
+
+/* || PARAGRAPH */
+.card p {
+    color: var(--GRAYISH-BLUE);
+    font-size: 15px;
+    margin: 1rem 2rem 2rem;
+}
+
+/* || FOOTER */
+footer {
+    margin-top: 1rem;
+    max-width: 350px;
+}
+
+footer, footer a {
+    color: var(--DARK-BLUE);
+}
+
