@@ -29,16 +29,13 @@ img {
 }
 
 /* || GENERAL STYLES */
-html {
-    background: var(--LIGHT-GRAY);
-    font-family: var(--FF);
-    text-align: center;
-}
-
 body {
+    background: var(--LIGHT-GRAY);
     display: grid;
+    font-family: var(--FF);
     min-height: 100vh;
     place-content: center;
+    text-align: center;
 }
 
 .card {
@@ -62,7 +59,7 @@ body {
 /* || PARAGRAPH */
 .card p {
     color: var(--GRAYISH-BLUE);
-    font-size: 15px;
+    font-size: 0.875rem;
     margin: 1rem 2rem 2rem;
 }
 
